@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env.local
+.DS_Store
+Thumbs.db
+preview.png
+preview-*.png
+*preview*.png
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.vercel
