@@ -35,7 +35,7 @@ export function Navbar({ activeSection }) {
       <img
         src="/images/logo.png"
         alt="Veloa Studio"
-        className="h-8 w-auto"
+        className="h-9 w-auto max-w-[172px] object-contain"
         onError={() => setLogoError(true)}
       />
     );
