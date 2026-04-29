@@ -22,12 +22,14 @@ export function Hero() {
           {logoError ? (
             <div className="mb-6 text-lg font-bold tracking-[0.08em] text-primary">Veloa Studio</div>
           ) : (
-            <img
-              src="/images/logo.png"
-              alt="Veloa Studio"
-              className="mx-auto mb-6 h-16 w-auto max-w-[240px] object-contain md:mx-0 md:h-20 md:max-w-[300px]"
-              onError={() => setLogoError(true)}
-            />
+            <span className="mx-auto mb-6 inline-flex rounded bg-white px-2 py-1 md:mx-0">
+              <img
+                src="/images/logo.png"
+                alt="Veloa Studio"
+                className="h-16 w-auto max-w-[240px] object-contain md:h-20 md:max-w-[300px]"
+                onError={() => setLogoError(true)}
+              />
+            </span>
           )}
 
           {/* OPTION A: "당신의 이야기를, 우리의 언어로" */}

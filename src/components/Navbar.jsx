@@ -32,12 +32,14 @@ export function Navbar({ activeSection }) {
     logoError ? (
       <span className="text-lg font-bold tracking-[-0.02em] text-primary">Veloa Studio</span>
     ) : (
-      <img
-        src="/images/logo.png"
-        alt="Veloa Studio"
-        className="h-9 w-auto max-w-[172px] object-contain"
-        onError={() => setLogoError(true)}
-      />
+      <span className="inline-flex items-center rounded bg-white px-1 py-0.5">
+        <img
+          src="/images/logo.png"
+          alt="Veloa Studio"
+          className="h-9 w-auto max-w-[172px] object-contain"
+          onError={() => setLogoError(true)}
+        />
+      </span>
     );
 
   return (
