@@ -14,7 +14,7 @@ export function Hero() {
   const [logoError, setLogoError] = useState(false);
 
   return (
-    <section id="hero" className="relative flex min-h-[100svh] items-center overflow-hidden bg-bg px-5 pt-24 md:px-8">
+    <section id="hero" className="relative flex min-h-[100svh] items-center overflow-hidden bg-white px-5 pt-24 md:px-8">
       <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(47,168,213,0.06),transparent_42%)]" />
       <div className="absolute left-5 top-0 hidden h-full w-[3px] bg-accent/80 md:block" />
       <div className="relative mx-auto flex w-full max-w-content justify-center md:justify-start">
