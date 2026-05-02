@@ -6,6 +6,4 @@ export const works = [
   { title: "지하철 뚜벅이", category: "예능·콘텐츠", filename: "subway.jpg" },
   { title: "그 별과 이별", category: "웹드라마", filename: "thatstar.jpg" },
   { title: "겨울을 보내는 방법", category: "독립영화", filename: "winter.webp" },
-  { title: "다시, 스무살", category: "웹드라마", filename: "20age2.png" },
-  { title: "처음 처럼", category: "웹드라마", filename: "start2.png" },
 ];
